@@ -5,8 +5,8 @@ function Works() {
                 <div className="container">
 
                     <div className="section-title">
-                        <h2>Services</h2>
-                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                        <h2>Hizmetlerimiz</h2>
+                        <p>İşinde profesyonel ekibimiz ile mobilya imalat montaj yapmaktayız. Hizmetlerimizin listesi aşağıda mevcuttur. Fiyat almak için Telefon ya da mail yolu ile iletişime geçebilirsiniz. Listedeki hizmetlerimiz haricindeki talepleriniz için arayarak bilgi alabilirsiniz.</p>
                     </div>
 
                     <div className="row">
@@ -18,8 +18,8 @@ function Works() {
                                     </svg>
                                     <i className="bx bxl-dribbble"></i>
                                 </div>
-                                <h4><a href="">Lorem Ipsum</a></h4>
-                                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                                <h4><a href="">Mutfak Dolabı</a></h4>
+                                <p>İsteğe uygun Mutfak dolabı hizmetimiz mevcuttur.</p>
                             </div>
                         </div>
 
@@ -31,8 +31,8 @@ function Works() {
                                     </svg>
                                     <i className="bx bx-file"></i>
                                 </div>
-                                <h4><a href="">Sed Perspiciatis</a></h4>
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                                <h4><a href="">Banyo Dolabı</a></h4>
+                                <p>İsteğe uygun Banyo dolabı hizmetimiz mevcuttur.</p>
                             </div>
                         </div>
 
@@ -44,8 +44,8 @@ function Works() {
                                     </svg>
                                     <i className="bx bx-tachometer"></i>
                                 </div>
-                                <h4><a href="">Magni Dolores</a></h4>
-                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                                <h4><a href="">Vestiyer</a></h4>
+                                <p>İsteğe uygun vestiyer , ayakkabılık hizmetlerimiz mevcuttur.</p>
                             </div>
                         </div>
 
@@ -57,8 +57,8 @@ function Works() {
                                     </svg>
                                     <i className="bx bx-layer"></i>
                                 </div>
-                                <h4><a href="">Nemo Enim</a></h4>
-                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                                <h4><a href="">Kapı</a></h4>
+                                <p>İsteğe uygun kapı modellerimiz mevcuttur.</p>
                             </div>
                         </div>
 
@@ -70,8 +70,8 @@ function Works() {
                                     </svg>
                                     <i className="bx bx-slideshow"></i>
                                 </div>
-                                <h4><a href="">Dele Cardo</a></h4>
-                                <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+                                <h4><a href="">Masa</a></h4>
+                                <p>İsteğe uygun çalışma masaları, ofis mobilyaları hizmetimiz mevcuttur.</p>
                             </div>
                         </div>
 
@@ -83,8 +83,8 @@ function Works() {
                                     </svg>
                                     <i className="bx bx-arch"></i>
                                 </div>
-                                <h4><a href="">Divera Don</a></h4>
-                                <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+                                <h4><a href="">Sehpa</a></h4>
+                                <p>İsteğe uygun Zigon Sehpa ya da Orta Sehpa hizmetimiz mevcuttur.</p>
                             </div>
                         </div>
 

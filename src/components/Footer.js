@@ -3,21 +3,27 @@ function Footer() {
         <div className="Footer">
             <footer id="footer">
                 <div className="container">
-                    <h3>Green</h3>
-                    <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
-                    <div className="social-links">
-                        <a href="#" className="twitter"><i className="bx bxl-twitter"></i></a>
-                        <a href="#" className="facebook"><i className="bx bxl-facebook"></i></a>
-                        <a href="#" className="instagram"><i className="bx bxl-instagram"></i></a>
-                        <a href="#" className="google-plus"><i className="bx bxl-skype"></i></a>
-                        <a href="#" className="linkedin"><i className="bx bxl-linkedin"></i></a>
-                    </div>
-                    <div className="copyright">
-                        &copy; Copyright <strong><span>Green</span></strong>. All Rights Reserved
-                    </div>
-                    <div className="credits">
-                        <a href="https://bootstrapmade.com/">BootstrapMade</a>
-                    </div>
+                    <h3>Erdoğan Dekorasyon</h3>
+                    <p>İşinde profesyonel ekibimiz ile mobilya imalat montaj yapmaktayız. Hizmetlerimizin listesi yukarıda mevcuttur. Fiyat almak için Telefon ya da mail yolu ile iletişime geçebilirsiniz. Talepleriniz için arayarak bilgi alabilirsiniz.</p>
+                    <div className="row">
+                    <div className="address col-lg-4 col-md-4">
+                <i className="bi bi-geo-alt"></i>
+                <h4>Lokasyon:</h4>
+                <p>Ankara - Siteler</p>
+              </div>
+              
+              <div className="email col-lg-4 col-md-4">
+                <i className="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>info@example.com</p>
+              </div>
+
+              <div className="phone col-lg-4 col-md-4">
+                <i className="bi bi-phone"></i>
+                <h4>Telefon:</h4>
+                <p>+905073752401</p>
+              </div>
+              </div>
                 </div>
             </footer>
         </div>
