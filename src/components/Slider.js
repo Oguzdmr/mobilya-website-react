@@ -1,25 +1,60 @@
-
-
+import { useEffect } from "react";
 
 const Slider = () => {
 
-  const select = (el, all = false) => {
-    el = el.trim()
-    if (all) {
-      return [...document.querySelectorAll(el)]
-    } else {
-      return document.querySelector(el)
+  useEffect(() => {
+    var sliderImages = document.querySelectorAll('.carousel-item'),
+    arrowLeft = document.querySelector('.carousel-control-prev'),
+    arrowRight = document.querySelector('.carousel-control-next'),
+    current = 0;
+
+function reset() {
+    for (let i = 0; i < sliderImages.length; i++) {
+        sliderImages[i].style.display = 'none';
+        sliderImages[i].classList.remove('active');
     }
-  }
+}
 
-  let heroCarouselIndicators = select("#hero-carousel-indicators")
-  let heroCarouselItems = select('#heroCarousel .carousel-item', true)
+function init() {
+    reset();
+    sliderImages[0].style.display = 'block';
+    sliderImages[0].classList.add('active')
+}
 
-  heroCarouselItems.forEach((item, index) => {
-    (index === 0) ?
-    heroCarouselIndicators.innerHTML += "<li data-bs-target='#heroCarousel' data-bs-slide-to='" + index + "' class='active'></li>":
-      heroCarouselIndicators.innerHTML += "<li data-bs-target='#heroCarousel' data-bs-slide-to='" + index + "'></li>"
+function slideLeft() {
+    reset();
+    var slide =sliderImages[current - 1];
+    slide.style.display = 'block';
+    slide.classList.add('active');
+    current--;
+}
+
+arrowLeft.addEventListener('click', function () {
+    if (current === 0) {
+        current = sliderImages.length;
+    }
+    slideLeft();
+});
+
+function slideRight() {
+    reset();
+    var slide =sliderImages[current + 1];
+    slide.style.display = 'block';
+    slide.classList.add('active');
+    current++;
+}
+
+arrowRight.addEventListener('click', function () {
+    if (current === sliderImages.length - 1) {
+        current = -1;
+    }
+    slideRight();
+});
+
+init();
+
   });
+ 
 
   return (
     <div className="Slider">
@@ -65,11 +100,11 @@ const Slider = () => {
 
           </div>
 
-          <a className="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <a className="carousel-control-prev" role="button" data-bs-slide="prev">
             <span className="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
           </a>
 
-          <a className="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <a className="carousel-control-next"  role="button" data-bs-slide="next">
             <span className="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
           </a>
 
