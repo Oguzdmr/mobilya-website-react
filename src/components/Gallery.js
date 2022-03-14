@@ -5,17 +5,17 @@ function Gallery() {
       <div className="container">
 
         <div className="section-title">
-          <h2>Portfolio</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Galeri</h2>
+          <p>İşinde profesyonel ekibimiz ile mobilya imalat montaj yapmaktayız. Yaptığımız işlerin fotoğrafları aşağıda mevcuttur. Fiyat almak için Telefon ya da mail yolu ile iletişime geçebilirsiniz. Talepleriniz için arayarak bilgi alabilirsiniz.</p>
         </div>
 
         <div className="row">
           <div className="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter="*" className="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter="*" className="filter-active">Hepsi</li>
+              <li data-filter=".filter-app">Mutfak Dolabı</li>
+              <li data-filter=".filter-card">Vestiyer</li>
+              <li data-filter=".filter-web">Banyo Dolabı</li>
             </ul>
           </div>
         </div>
