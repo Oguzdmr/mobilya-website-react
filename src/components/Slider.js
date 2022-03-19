@@ -80,9 +80,9 @@ init();
             <div className="carousel-item" style={{ backgroundImage: "url(../../public/assets/img/slide/slide-2.jpg)" }}>
               <div className="carousel-container">
                 <div className="container">
-                  <h2 className="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
-                  <p className="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                  <a href="#about" className="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                  <h2 className="animate__animated animate__fadeInDown">Mobilya  İmalat ve Montaj </h2>
+                  <p className="animate__animated animate__fadeInUp">Mutfak Dolabı, Banyo Dolabı, Vestiyer ve daha pek çok mobilya işleriniz için en iyi adres.</p>
+                  <a href="#about" className="btn-get-started animate__animated animate__fadeInUp scrollto">Daha Fazla</a>
                 </div>
               </div>
             </div>
@@ -91,8 +91,8 @@ init();
             <div className="carousel-item" style={{ backgroundImage: "url(../../public/assets/img/slide/slide-3.jpg)" }}>
               <div className="carousel-container">
                 <div className="container">
-                  <h2 className="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
-                  <p className="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                  <h2 className="animate__animated animate__fadeInDown">Ankara Siteler de Mesleğinde Başarılı Ustalar</h2>
+                  <p className="animate__animated animate__fadeInUp">Uzun yıllardır bu mesleği en iyi şekilde icra eden ekibimiz en kaliteli ürünleri hızlı bir şekilde hazırlamaktayız.</p>
                   <a href="#about" className="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
                 </div>
               </div>
